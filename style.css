@@ -1,0 +1,55 @@
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(227,176,206,1) 13%, rgba(224,176,207,1) 16%, rgba(185,182,220,1) 59%, rgba(202,205,217,1) 74%, rgba(148,187,233,1) 100%);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4343f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #93dbea;
+  }
+  input, select, textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #000;
+      border-radius: 5px;
+      background-color: white;
+  }
+  input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: #000; 
+  }    
+  p {
+    font-size: 18px;
+    color: #333;
+  }
+  .result-container {
+      margin-top: 5px;
+  }
+  
+  .result-box {
+      padding: 10px;
+      font-size: 20px;
+      border: 1px solid #333;
+      background-color: #f0f0f0;
+  
+  }
+  
